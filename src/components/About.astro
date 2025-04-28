@@ -1,0 +1,99 @@
+---
+import { Picture } from "astro:assets";
+---
+<div class="min-h-screen flex flex-col">
+  <main class="flex-grow flex items-center justify-center">
+    <div class="about-me">
+      <div class="flex flex-col gap-10 font-light p-4">
+        <div class="flex-shrink-0 gap-2 flex flex-col items-center">
+          <img 
+            src='/myphoto.png'
+            alt="#"
+            loading="lazy"
+            decoding="async"
+            class="skeleton w-[12.5rem] h-[12.5rem] md:h-[25vh] md:w-[25vh] object-cover rounded-full"
+          />
+          <p class="text-4xl font-medium text-center">Николай Сороколетов</p>
+          <p class="text-sm text-gray-500 text-center">(aka: waste3d, uweaky)</p>
+        </div>
+
+        <div class="flex flex-col md:flex-row gap-4 w-full max-w-screen">
+          <!-- Контакты -->
+          <div class="flex-1 flex flex-col items-center">
+            <p class="text-xl font-medium text-white mb-2">Контакты</p>
+            <div class="flex flex-wrap items-center justify-center gap-2 sm:flex-row">
+              <div class="bg-zinc-900 p-2 border-2 border-gray-700 rounded-md flex items-center">
+                <a
+                  class="focus:text-purple-400 hover:text-purple-400 transition items-center flex flex-row gap-1"
+                  href="https://t.me/waste3d"
+                >
+                  <i class="text-purple-400 fa-brands fa-telegram"></i>
+                  @waste3d
+                </a>
+              </div>
+              <div class="bg-zinc-900 p-2 border-2 border-gray-700 rounded-md flex items-center">
+                <a
+                  class="focus:text-purple-400 hover:text-purple-400 transition items-center flex flex-row gap-1"
+                  href="mailto:kolya@waste3d.su"
+                >
+                  <i class="text-purple-400 fa-solid fa-envelope"></i>
+                  kolya@waste3d.su
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Навыки -->
+          <div class="flex-1 flex flex-col items-center">
+            <p class="text-xl font-medium text-white mb-2">Навыки</p>
+            <div class="flex flex-wrap items-center justify-center gap-2 sm:flex-row">
+              <div class="bg-zinc-900 p-2 border-2 border-gray-700 rounded-md flex items-center">
+                <span class="flex flex-row items-center gap-1">
+                  <i class="fa-brands fa-golang text-blue-300"></i>
+                  Go
+                </span>
+              </div>
+              <div class="bg-zinc-900 p-2 border-2 border-gray-700 rounded-md flex items-center">
+                <span class="flex flex-row items-center gap-1">
+                  <i class="fa-brands fa-square-js text-yellow-400"></i>
+                  JavaScript
+                </span>
+              </div>
+              <div class="bg-zinc-900 p-2 border-2 border-gray-700 rounded-md flex items-center">
+                <span class="flex flex-row items-center gap-1">
+                  <i class="fa-brands fa-docker text-blue-400"></i>
+                  Docker
+                </span>
+              </div>
+              <div class="bg-zinc-900 p-2 border-2 border-gray-700 rounded-md flex items-center">
+                <span class="flex flex-row items-center gap-1">
+                  <i class="fa-brands fa-gitlab text-orange-400"></i>
+                  Git/GitLab
+                </span>
+              </div>
+              <div class="bg-zinc-900 p-2 border-2 border-gray-700 rounded-md flex items-center">
+                <span class="flex flex-row items-center gap-1">
+                  <i class="fa-brands fa-linux text-red-400"></i>
+                  Linux
+                </span>
+              </div>
+              <div class="bg-zinc-900 p-2 border-2 border-gray-700 rounded-md flex items-center">
+                <span class="flex flex-row items-center gap-1">
+                  <i class="fa-solid fa-database text-green-400"></i>
+                  SQL/NoSQL
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- Футер -->
+  <footer class=" text-gray-400 text-center p-4">
+    Все права <a class="hover:text-blue-400" href="#"> защищены.</a> 
+    Исходный код - <a class="hover:text-amber-500" href="#"><i class="fa-brands fa-gitlab"></i></a>
+  </footer>
+</div>

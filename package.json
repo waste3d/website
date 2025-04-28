@@ -1,0 +1,30 @@
+{
+  "name": "waste3dsite",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "check": "astro check",
+    "build": "astro check && astro build",
+    "preview": "node run ./dist/server/entry.mjs",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/node": "^9.2.1",
+    "@fontsource-variable/finlandica": "^5.2.6",
+    "@fontsource-variable/geologica": "^5.2.5",
+    "@tailwindcss/vite": "^4.1.4",
+    "astro": "^5.7.5",
+    "astro-particles": "^2.10.0",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.4",
+    "tsparticles": "^3.8.1",
+    "tsparticles-slim": "^2.12.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "postcss-custom-properties": "^14.0.4",
+    "postcss-nested": "^7.0.2"
+  }
+}
