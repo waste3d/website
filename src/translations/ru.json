@@ -1,0 +1,137 @@
+{
+    "name": "Николай Сороколетов",
+    "aka": "ака: waste3d, waste3d3",
+    "photo": "Фотография",
+    "personal_information": {
+      "title": "Личная информация",
+      "birthday": "31 декабря 2008",
+      "years_old": "лет",
+      "location": "г. Сосновый Бор, Россия",
+      "languages": "Русский, English"
+    },
+    "contacts": {
+      "title": "Контакты",
+      "telegram": "@waste3d",
+      "email": "kolya@waste3d.su"
+    },
+    "donate": {
+      "title": "На покушать",
+      "crypto_bot": "Crypto Bot",
+      "t_bank": "Сбер (Сбербанк)"
+    },
+    "skills": {
+      "title": "Навыки",
+      "devops": {
+        "title": "DevOps",
+        "experience": "Опыт: менее года",
+        "items": {
+          "linux": "Linux",
+          "linux_details": "Arch Linux, Debian",
+          "containerization_orchestration": "Контейнеризация и оркестрация",
+          "containerization_orchestration_details": "Docker",
+          "monitoring": "Мониторинг",
+          "monitoring_details": "Prometheus, Grafana",
+          "automation": "Автоматизация",
+          "automation_details": "Ansible, Terraform",
+          "webservers_proxy": "Веб-серверы и прокси",
+          "webservers_proxy_details": "nginx",
+          "databases": "Базы данных",
+          "databases_details": "PostgreSQL",
+          "vcs": "VCS",
+          "vcs_details": "Git, GitLab",
+          "self_hosting": "Селф-хостинг",
+          "self_hosting_details": "Nextcloud, собственные проекты"
+        }
+      },
+      "backend": {
+        "title": "Бэкэнд",
+        "frameworks": "Основные фреймворки",
+        "frameworks_details": "FastAPI, Flask"
+      }
+    },
+    "experience": {
+      "title": "Опыт работы",
+      "job_title": "Должность",
+      "grade": "Грейд",
+      "mts": {
+        "title": "Zytro VPN",
+        "date": "сентябрь 2024 — н. в.",
+        "job_title": "DevOps-инженер",
+        "grade": "Младший"
+      }
+    },
+    "portfolio": {
+      "title": "Портфолио",
+      "zytro_vpn": {
+        "title": "Zytro VPN",
+        "date": "Q2 2023 — н. в.",
+        "description": "VPN-сервис для обеспечения анонимности и безопасности в сети.",
+        "telegram_bot": {
+          "title": "Telegram-бот",
+          "description": "Разработан на Python с использованием aiogram, aiogram_dialog, fluentogram и SQLAlchemy для взаимодействия через Telegram."
+        },
+        "vpn_servers": {
+          "title": "VPN-серверы",
+          "description": "Работают на NixOS с использованием Docker Compose и Xray-core."
+        },
+        "buttons": {
+          "bot": "Бот",
+          "project_channel": "Канал проекта",
+          "source_code": "Исходный код"
+        }
+      },
+      "self_hosting": {
+        "title": "Собственная IT-инфраструктура",
+        "date": "≈2020 — н. в.",
+        "description": "Собрал и настроил собственный сервер, включая:",
+        "p1": "Установку и настройку ОС NixOS",
+        "p2": "Сервисов через Docker Compose",
+        "p3": "Проксирование сервисов через nginx",
+        "p4": "Мониторинг с Prometheus и Grafana",
+        "p5": "Настройку GitLab для разработки и поддержки личных проектов",
+        "p6": "Организацию хранения данных с Nextcloud и почты через mailcow",
+        "p7": "Реализацию SSO через Authentik",
+        "p8": "Установку и настройку OpenWrt на маршрутизаторе с фаерволом и WireGuard для безопасного SSH-доступа к инфраструктуре извне"
+      }
+    },
+    "education": {
+      "title": "Образование",
+      "school": {
+        "title": "Среднее образование",
+        "provider_date": "МБОУ СОШ №6 г. Сосновый Бор, 2015 — 2026"
+      },
+      "telegram_bots_course": {
+        "title": "Курс: Телеграм-боты на Python: продвинутый уровень",
+        "provider_date": "Stepik, Q2 2024"
+      },
+      "devops_course": {
+        "title": "Курс: DevOps-инженер с нуля",
+        "provider_date": "Merion Academy, Q3 2024"
+      }
+    },
+    "achievements": {
+      "title": "Достижения",
+      "profile_achievements": {
+        "title": "Профильные достижения",
+        "description": "Призер 42-й Международной конференции «Школьная информатика и проблемы устойчивого развития»",
+        "year": "2022-2023 учебный год",
+        "place": "II место",
+        "project": "Проект: Zytro VPN"
+      },
+      "sports_achievements": {
+        "title": "Спортивные достижения",
+        "p1": "2 I, 3 II и 4 III места в соревнованиях по жиму лежа без экипировки и русскому жиму на всероссийском и международном уровнях.",
+        "p2": "Участие в Кубках мира WRPF в 2023 и 2024 годах и Чемпионате мира Федерации русского жима в 2023 году.",
+        "p3": "Член международных федераций пауэрлифтинга WRPF и IPL, а также Федерации русского жима.",
+        "p4": "Рекордсмен Ленинградской области в жиме лежа без экипировки WRPF.",
+        "p5": "Член сборной города Сосновый Бор по жиму лежа \"Адреналин\""
+      }
+    },
+    "footer": {
+      "license": "Лицензия",
+      "source_code": "Исходный код"
+    },
+    "certificate": "Сертификат",
+    "diploma": "Диплом"
+  }
+  

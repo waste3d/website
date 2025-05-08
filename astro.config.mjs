@@ -6,8 +6,6 @@ import node from "@astrojs/node";
 
 import react from "@astrojs/react";
 
-import i18n from 'astro-i18n';
-
 
 
 // https://astro.build/config

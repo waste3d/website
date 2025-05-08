@@ -1,0 +1,143 @@
+{
+    "name": "Nikolay Sorokoletov",
+    "aka": "aka: waste3d, waste3d3",
+    "photo": "Photo",
+    "personal_information": {
+      "title": "Personal Information",
+      "birthday": "December 31, 2008",
+      "years_old": "years old",
+      "location": "Sosnovy Bor, Russia",
+      "languages": "Russian, English"
+    },
+    "contacts": {
+      "title": "Contacts",
+      "telegram": "@waste3d",
+      "email": "kolya@waste3d.su"
+    },
+    "donate": {
+      "title": "Donate",
+      "crypto_bot": "Crypto Bot (Int)",
+      "t_bank": "Sberbank (Russia)"
+    },
+    "skills": {
+      "title": "Skills",
+      "devops": {
+        "title": "DevOps",
+        "experience": "Experience: less than a year",
+        "items": {
+          "linux": "Linux",
+          "linux_details": "Arch Linux, Debian",
+          "containerization_orchestration": "Containerization and Orchestration",
+          "containerization_orchestration_details": "Docker",
+          "monitoring": "Monitoring",
+          "monitoring_details": "Prometheus, Grafana",
+          "automation": "Automation",
+          "automation_details": "Ansible, Terraform",
+          "webservers_proxy": "Web Servers and Proxy",
+          "webservers_proxy_details": "nginx",
+          "databases": "Databases",
+          "databases_details": "PostgreSQL",
+          "vcs": "VCS",
+          "vcs_details": "Git, GitLab",
+          "self_hosting": "Self-Hosting",
+          "self_hosting_details": "NextCloud, own projects"
+        }
+      },
+      "python": {
+        "title": "Python",
+        "experience": "Experience: over 3 years",
+        "frameworks_libraries": "Frameworks and Libraries",
+        "frameworks_libraries_details": "asyncio, SQLAlchemy, rich",
+        "telegram_bots": {
+          "title": "Telegram Bots",
+          "framework": "Framework",
+          "framework_details": "aiogram",
+          "libraries": "Libraries",
+          "libraries_details": "aiogram_dialog, fluentogram"
+        },
+        "backend": {
+          "title": "Backend",
+          "frameworks": "Main Frameworks",
+          "frameworks_details": "FastAPI, Flask"
+        }
+      }
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "url_shortener": {
+        "title": "Url Shortener",
+        "date": "Q1 2025 — Present",
+        "description": "Link shortening service.",
+        "Stack": {
+            "title": "Stack",
+            "stack":"Go(Gin), Gorm, React, Redis, PosgreSQL, TailwindCSS"
+        },
+        "godev_search": {
+            "title":"Godev search",
+            "date":"Q1 2025 - Present",
+            "description":"People search system",
+            "Stack": {
+                "title": "Stack",
+                "stack": "Go(Echo), Gorm, VueJS, PosgreSQL, TailwindCSS"
+            }
+        },
+
+        "buttons": {
+            "link": "Website",
+          "source_code": "Source Code"
+        }
+      },
+      "self_hosting": {
+        "title": "Self-Hosted IT Infrastructure",
+        "date": "≈2020 — Present",
+        "description": "Configured a lot of servers, including:",
+        "p1": "Servers with Linux (Debian, Ubuntu)",
+        "p2": "Services via Docker Compose",
+        "p3": "Proxying services through nginx",
+        "p4": "Monitoring with Prometheus and Grafana",
+        "p5": "Automation with Ansible",
+        "p6": "VCS: Git, Github, Gitlab",
+        "p7":"Self-Hosting: NextCloud, own projects"
+      }
+    },
+    "education": {
+      "title": "Education",
+      "school": {
+        "title": "School Education",
+        "provider_date": "MBOU School No. 6, Sosnovy Bor, Russia, 2015 — 2026"
+      },
+      "telegram_bots_course": {
+        "title": "Course: Telegram Bots in Python: Advanced Level",
+        "provider_date": "Stepik, Q2 2024"
+      },
+      "devops_course": {
+        "title": "Course: DevOps Engineer from Scratch",
+        "provider_date": "Merion Academy, Q3 2024"
+      }
+    },
+    "achievements": {
+      "title": "Achievements",
+      "profile_achievements": {
+        "title": "Profile Achievements",
+        "description": "Prize winner at the 42nd International Conference 'School Informatics and Sustainable Development Issues'",
+        "year": "2022-2023 academic year",
+        "place": "2nd place",
+        "project": "Project: Zytro VPN"
+      },
+      "sports_achievements": {
+        "title": "Sports Achievements",
+        "p1": "2 first places, 3 second places, and 4 third places in bench press without equipment and Russian bench press at national and international levels.",
+        "p2": "Participation in WRPF World Cups in 2023 and 2024 and the World Championship of the Russian Bench Press Federation in 2023.",
+        "p3": "Member of international powerlifting federations WRPF and IPL, as well as the Russian Bench Press Federation.",
+        "p4": "Record holder in Leningradskaya oblast' in bench press without equipment WRPF.",
+        "p5": "Member of the Sosnovy Bor city bench press team \"Adrenalin\""
+      }
+    },
+    "footer": {
+      "license": "License",
+      "source_code": "Source Code"
+    },
+    "certificate": "Certificate",
+    "diploma": "Diploma"
+  }
+  

@@ -1,6 +1,5 @@
 ---
 import { Picture } from "astro:assets";
-import ProjectList from "./ProjectList";
 ---
 <div class="min-h-screen flex flex-col">
   <div id="tsparticles" class="fixed top-0 left-0 w-full h-full -z-10"></div>
@@ -93,23 +92,93 @@ import ProjectList from "./ProjectList";
           </div>
         </div>
 
-        <div class="flex flex-col items-center ">
-          <p class="text-xl font-medium text-white mb-2">Портфолио</p>
-            <div class="p-4 border-2 border-gray-700 rounded-md w-full max-w-screen-md bg-zinc-900/30 backdrop-blur-xs">
-           <p class="text-2xl font-medium text-purple-400 mb-2"> <i class="fa-solid fa-server"></i> Собственная IT-инфраструктура:</p>
-           <p class="text-gray-400 text-sm mb-2">≈ Q2 2024 - н.в.</p>
-           <p class="mb-2 font-bold">Настроил несколько серверов, включая: </p>
-            <ul class="list-disc list-inside ">
-              <p><i class="fa-solid fa-network-wired text-purple-400"></i> Серверы на базе Linux (Debian, Ubuntu)</p>
-              <p><i class="fa-brands fa-docker text-purple-400"></i> Контейнеризация с использованием Docker Compose</p>
-              <p> <i class="fa-solid fa-gears text-purple-400"></i> Автоматизация с Ansible</p>
-              <p><i class="fa-solid fa-globe text-purple text-purple-400"></i> Веб-серверы и проксирование на Nginx</p>
-              <p><i class="fa-solid fa-desktop text-purple-400"></i> Мониторинг с использованием Prometheus и Grafana</p>
-            </ul>
-           <section>
-            <ProjectList client:load/>
-           </section>
+      <div id="tsparticles" class="fixed top-0 left-0 w-full h-full -z-10"></div>
+          <main class="flex-grow flex items-center justify-center">
+            <div class="w-full max-w-screen-lg p-6">
+              <!-- Заголовок портфолио -->
+              <div class="relative mb-8">
+                <p class="text-xl font-medium text-white absolute -top-8 left-1/2 transform -translate-x-1/2  px-4 py-2">
+                  Портфолио
+                </p>
+              </div>
+        
+              <!-- Блок с проектами и инфраструктурой -->
+              <div class="w-full p-6 backdrop-blur-sm bg-zinc-900/50 rounded-xl border-2 border-gray-700">
+                <div class="flex flex-col items-center">
+                  <!-- Используем грид для двух колонок -->
+                  <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- Левая колонка: Инфраструктура -->
+                    <div class="p-6 ">
+                      <p class="text-2xl font-medium text-white mb-2">
+                        <i class="fa-solid fa-server text-purple-400"></i> Собственная IT-инфраструктура
+                      </p>
+                      <p class="text-gray-400 text-sm mb-2">≈ Q2 2024 — н.в.</p>
+                      <p class="mb-2 font-bold text-white">Настроил несколько серверов, включая:</p>
+                      <ul class=" text-white space-y-1">
+                        <li><i class="fa-solid fa-network-wired text-purple-400 mr-1"></i> Linux-серверы (Debian, Ubuntu)</li>
+                        <li><i class="fa-brands fa-docker text-purple-400 mr-1"></i> Контейнеризацию через Docker Compose</li>
+                        <li><i class="fa-solid fa-gears text-purple-400 mr-1"></i> Автоматизацию с Ansible</li>
+                        <li><i class="fa-solid fa-globe text-purple-400 mr-1"></i> Веб-серверы и Nginx reverse proxy</li>
+                        <li><i class="fa-solid fa-desktop text-purple-400 mr-1"></i> Мониторинг с Prometheus + Grafana</li>
+                        <li><i class="fa-solid fa-code-branch text-purple-400 mr-2"></i> Системы контроля версий Git, Gitlab</li>
+                        <li><i class="fa-solid fa-envelope text-purple-400 mr-1"></i> Self-Hosting NextCloud и своих проектов</li>
+                      </ul>
+                    </div>
+        
+                    <!-- Правая колонка: Проекты -->
+                    <div class="p-6 ">
+                      <p class="text-2xl font-medium text-white mb-4">
+                        <i class="fa-solid fa-folder-open text-purple-400"></i> Проекты
+                      </p>
+        
+                      <!-- Проект 1 -->
+<div class="mb-4">
+  <p class="text-lg font-semibold text-white">
+    <i class="fa-solid fa-link text-purple-300 mr-1 mt-1"></i> Url Shortener
+  </p>
+  <p class="text-gray-400 text-sm">≈ Q1 2025 - н.в. — Сервис сокращения ссылок</p>
+  <p class="text-gray-600 text-sm">Cтек: Go(Gin), Gorm, React, Redis, PosgreSQL, TailwindCSS
+  </p>
+ 
+  <a 
+    href="https://github.com/waste3d/url-shortner"
+    target="_blank"
+    class="inline-block mt-5 px-3 py-1 border border-purple-400 text-purple-300 hover:bg-purple-800/20 rounded text-sm transition"
+  >
+    <i class="fa-brands fa-github"></i> Исходный код
+  </a>
+</div>
+<div class="w-full h-[1px] bg-gray-700 my-4"></div>
 
+<!-- Проект 2 -->
+<div>
+  <p class="text-lg font-semibold text-white">
+    <i class="fa-solid fa-magnifying-glass text-purple-300 mr-1"></i> Godev searcher
+  </p>
+  <p class="text-gray-400 text-sm">≈ Q1 2025 - н.в. — Система поиска информации о людях</p>
+  
+  <!-- Секция с технологическим стеком -->
+  <p class="text-gray-600 text-sm">Стек: Go(Echo), Gorm, VueJS, PosgreSQL, TailwindCSS</p>
+  
+
+  <a 
+    href="https://github.com/waste3d/godev-searcher"
+    target="_blank"
+    class="inline-block mt-5 px-3 py-1 border border-purple-400 text-purple-300 hover:bg-purple-800/20 rounded text-sm transition"
+  >
+    <i class="fa-brands fa-github"></i> Исходный код
+  </a>
+</div>
+
+                    </div>
+                  </div>
+                </div>
+        
+
+
+        
+        
+            
       </div>
     </div>
   </main>
