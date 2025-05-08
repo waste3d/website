@@ -24,6 +24,7 @@ module.exports = {
             }
           }
         },
+        safelist: ['max-h-0', 'max-h-40', 'overflow-hidden', 'mt-2'],
         animation: {
           typing: "typing 2s steps(20) infinite alternate, blink .7s infinite"
         },
